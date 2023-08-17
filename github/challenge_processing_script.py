@@ -40,6 +40,8 @@ if __name__ == "__main__":
         HOST_AUTH_TOKEN = configs[0]
         CHALLENGE_HOST_TEAM_PK = configs[1]
         EVALAI_HOST_URL = configs[2]
+
+        print(HOST_AUTH_TOKEN, CHALLENGE_HOST_TEAM_PK, EVALAI_HOST_URL)
     else:
         sys.exit(1)
 
